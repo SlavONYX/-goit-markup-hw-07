@@ -1,0 +1,60 @@
+ .section-banner {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+     rgba(47, 48, 58, 0.4)), url("../../../images/Image.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: $main-text-color;
+ } 
+
+.section-banner__title {
+    width: 696px;
+    color: $background-main;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: calc(60 / 44);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
+}
+
+.section-banner__button {
+    font-family: Roboto;
+    background-color: #2196F3;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: $secondFontSize;
+    line-height: calc(30/16);
+    line-height: 1.6;
+    align-items: Center;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    width: 216px;
+    height: 50px;
+    top: 430px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    margin: 0 auto;
+    display: block;
+    border-color: transparent;
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+.section-banner__button:hover,
+.section-banner__button:focus {
+    background-color: #188ce8;
+}
+
+.overlay {
+    background-color: rgba(47, 48, 58, 0.4);
+    max-width: 1600px;
+    margin-left: 0;
+    margin-right: 0;
+}
