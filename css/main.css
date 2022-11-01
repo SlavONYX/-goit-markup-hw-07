@@ -44,8 +44,6 @@ svg {
   align-items: center;
   padding: 0;
   margin: 0;
-  list-style: none;
-  text-decoration: none;
 }
 
 .main-nav__list {
@@ -103,13 +101,12 @@ svg {
 }
 
 .main-contact__item:not(:last-child) {
-  margin-right: 50px;
+  margin-right: 30px;
 }
 
 .main-contact__link {
   display: flex;
   list-style: none;
-  display: block;
   position: relative;
   text-decoration: none;
   padding-top: 32px;
@@ -174,9 +171,12 @@ svg {
 }
 
 .section-banner {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1600px;
   padding-top: 200px;
   padding-bottom: 200px;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../../images/Image.jpg");
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/Image.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-color: #212121;
@@ -225,13 +225,6 @@ svg {
   background-color: #188ce8;
 }
 
-.overlay {
-  background-color: rgba(47, 48, 58, 0.4);
-  max-width: 1600px;
-  margin-left: 0;
-  margin-right: 0;
-}
-
 .section-features__list {
   display: flex;
   padding: 0px;
@@ -278,6 +271,7 @@ svg {
 
 .section-about__list {
   display: flex;
+  list-style: none;
   padding: 0px;
   margin: 0px;
   justify-content: space-between;
